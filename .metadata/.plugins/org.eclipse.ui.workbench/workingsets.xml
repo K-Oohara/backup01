@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <workingSetManager>
 <workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1513646748746_1" label="ECサイト" name="ECサイト">
+<item elementID="=ecsite_production" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=ecsite" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=template12" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=template" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
