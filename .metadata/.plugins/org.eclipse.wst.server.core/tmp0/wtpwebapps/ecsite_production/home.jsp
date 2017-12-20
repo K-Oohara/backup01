@@ -5,9 +5,9 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-	<meta http-equiv="Content-Style-Type" content="text/css"/>
-	<meta http-equiv="Content-Script-Type" content="text/javascript"/>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+	<meta http-equiv="Content-Style-Type" content="text/css; charset=UTF-8"/>
+	<meta http-equiv="Content-Script-Type" content="text/javascript; charset=UTF-8"/>
 	<meta http-equiv="imagetoolber" content="no"/>
 	<meta name="discription" content=""/>
 	<meta name="keywords" content=""/>
@@ -82,6 +82,10 @@
 			display:block;
 		}
 
+		.headerMenu li a:link{
+			color:white;
+		}
+
 		.headerMenu li a:visited{
 			color:white;
 		}
@@ -102,6 +106,11 @@
 			background-color:#ffffff;
 		}
 
+		#errorMessage{
+			color:red;
+		}
+
+
 		#footer{
 			width:100%;
 			height:80px;
@@ -121,7 +130,7 @@
 				<a href='<s:url action="GoHomeAction"/>'>HOME</a>
 			</li>
 			<li id="registration">
-				<a href='<s:url action="HomeAction"/>'>新規登録</a>
+				<a href='<s:url action="UserCreateAction"/>'>新規登録</a>
 			</li>
 			<li id="login">
 				<a href='<s:url action="HomeAction"/>'>ログイン</a>

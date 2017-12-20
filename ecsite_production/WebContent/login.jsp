@@ -82,6 +82,10 @@
 			display:block;
 		}
 
+		.headerMenu li a:link{
+			color:white;
+		}
+
 		.headerMenu li a:visited{
 			color:white;
 		}
@@ -106,6 +110,7 @@
 			color:red;
 		}
 
+
 		#footer{
 			width:100%;
 			height:80px;
@@ -125,7 +130,7 @@
 				<a href='<s:url action="GoHomeAction"/>'>HOME</a>
 			</li>
 			<li id="registration">
-				<a href='<s:url action="HomeAction"/>'>新規登録</a>
+				<a href='<s:url action="UserCreateAction"/>'>新規登録</a>
 			</li>
 			<li id="login">
 				<a href='<s:url action="HomeAction"/>'>ログイン</a>
@@ -150,7 +155,7 @@
 				<s:submit value="ログイン"/>
 			</s:form>
 			<br/>
-
+			<a href='<s:url action="UserCreateAction"/>'>新規登録</a>
 		</div>
 	</div>
 	<div id="footer">
