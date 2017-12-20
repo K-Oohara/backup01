@@ -1,0 +1,28 @@
+package com.internousdev.ecsite.dto;
+
+public class LoginActionDTO {
+	private int id;
+	public String name;
+	public String password;
+
+
+	public int getId(){
+		return id;
+	}
+
+	public String getName(){
+		return name;
+	}
+
+	public void setName(String name){
+		this.name = name;
+	}
+
+	public String getPassword(){
+		return password;
+	}
+
+	public void setPassword(String password){
+		this.password = password;
+	}
+}

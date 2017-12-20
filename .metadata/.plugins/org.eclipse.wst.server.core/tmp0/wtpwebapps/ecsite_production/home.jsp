@@ -14,11 +14,20 @@
 	<title>ホーム画面</title>
 	<style type="text/css">
 		body{
-
+			margin:0;
+			padding:0;
+			line-height:1.6;
+			letter-spacing:1px;
+			font-family:Verdana,Helvetica,sans-serif;
+			font-size:12px;
+			color:#0;
+			background:#333;
 		}
 		table{
-
+			text-aline:center;
+			margin:0 auto;
 		}
+
 		/* ========TEMPLATE LAYOUT======== */
 		#header{
 			position:relative;
@@ -73,9 +82,6 @@
 			display:block;
 		}
 
-		.headerMenu li a:{
-		}
-
 		.headerMenu li a:visited{
 			color:white;
 		}
@@ -85,37 +91,53 @@
 		}
 
 		#main{
-			position:relative;
-			top:0;
-			left:0;
+			width:100%;
+			height:500px;
+			text-align:center;
+			background-color:white;
+			clear:both;
+		}
+
+		#main .contents{
+			background-color:#ffffff;
 		}
 
 		#footer{
-
+			width:100%;
+			height:80px;
+			background-color:black;
+			clear:both;
 		}
 	</style>
 </head>
 <body>
 	<div id="header">
 		<div class="header-logo">
-			なんでも揃うECサイト
+			ECサイト
 		</div>
 		<div class="headerMenu">
 		<ul style="cursor: pointer">
 			<li id="home">
-				<a href="./">HOME</a>
+				<a href='<s:url action="GoHomeAction"/>'>HOME</a>
 			</li>
 			<li id="registration">
-				<a href="./">新規登録</a>
+				<a href='<s:url action="HomeAction"/>'>新規登録</a>
 			</li>
 			<li id="login">
-				<a href="./">ログイン</a>
+				<a href='<s:url action="HomeAction"/>'>ログイン</a>
 			</li>
 		</ul>
 		</div>
 	</div>
 	<div id="main">
-		<h1>ようこそ！</h1>
+		<div class="contents">
+			<h1>ようこそ！</h1>
+		</div>
+		<div id="contents-text">
+			<s:form action="HomeAction">
+				<s:submit value="商品購入"/>
+			</s:form>
+		</div>
 	</div>
 	<div id="footer">
 
