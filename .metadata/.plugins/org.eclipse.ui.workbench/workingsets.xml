@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workingSetManager>
+<workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1513646748746_1" label="ECサイト" name="ECサイト">
+<item elementID="=ecsite" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=template12" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=template" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1513646889762_3" label="フレームワーク演習" name="フレームワーク演習">
+<item elementID="=WebProj2" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=WebProj" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+</workingSet>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1513572580752_0" label="ウィンドウ・ワーキング・セット" name="Aggregate for window 1513572580752"/>
+<mruList name="ECサイト"/>
+</workingSetManager>
