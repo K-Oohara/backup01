@@ -17,7 +17,7 @@ public class UserCreateCompleteDAO {
 
 	private String sql = "INSERT INTO login_user_transaction (login_id, login_pass, user_name, insert_date) VALUES(?, ? ,?, ?)";
 
-	public void cerateUser(String loginUserId, String loginUserPassword, String userName) throws SQLException {
+	public void createUser(String loginUserId, String loginUserPassword, String userName) throws SQLException {
 
 		try {
 			PreparedStatement preparedStatement = connection.prepareStatement(sql);

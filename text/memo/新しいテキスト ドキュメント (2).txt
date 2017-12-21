@@ -1,0 +1,6 @@
+
+対象	実装方法
+Model	setter/getterメソッドを持つクラスとして実装する。Struts 2では、Modelの規約に則ったクラスをActionクラスと呼ぶ。
+リクエストパラメータはControllerからsetterを通じてActionクラスに提供され、 ビューに表示すべきデータはActionクラスからgetterを通じてViewに提供される。
+View	JSP/Velocity用テンプレートなどの形式で実装する。
+JSPの場合、Struts2が提供するカスタムタグライブラリを通じてActionクラスから値を取得する。

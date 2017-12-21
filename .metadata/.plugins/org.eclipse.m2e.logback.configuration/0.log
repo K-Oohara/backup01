@@ -53,3 +53,4 @@ Caused by: org.eclipse.aether.transfer.ArtifactTransferException: Failure to tra
 2017-12-19 10:06:02,824 [main] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache file is not available. Remote download required.
 2017-12-20 10:24:40,934 [main] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache file is out-of-date. Remote download required.
 2017-12-20 16:51:56,229 [main] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache file is not out-of-date. No remote download required.
+2017-12-21 12:09:19,429 [main] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache file is out-of-date. Remote download required.
