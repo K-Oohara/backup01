@@ -4,10 +4,10 @@
 <item elementID="=ecsite_production" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=ecsite" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=template12" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=ecsite02" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=template" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=login02" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=login" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
-<item elementID="=ecsite02" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 </workingSet>
 <workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1513646889762_3" label="フレームワーク演習" name="フレームワーク演習">
 <item elementID="=WebProj02" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>

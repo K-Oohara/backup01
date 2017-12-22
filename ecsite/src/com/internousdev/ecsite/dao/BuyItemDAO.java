@@ -28,10 +28,21 @@ public class BuyItemDAO {
 			PreparedStatement preparedStatement = connection.prepareStatement(sql);
 			ResultSet resultSet = preparedStatement.executeQuery();
 
-			if(resultSet.next()) {
+			//ResultSetの行数出力
+			//resultSet.last();
+			//int numberOfRows = resultSet.getRow();
+			//System.out.println("ResultSetの行数" + numberOfRows);
+			//resultSet.beforeFirst();
+
+			while(resultSet.next()) {
 				buyItemDTO.setId(resultSet.getInt("id"));
 				buyItemDTO.setItemName(resultSet.getString("item_name"));
 				buyItemDTO.setItemPrice(resultSet.getString("item_price"));
+
+				//buyItemDTOデータ確認用
+				//System.out.println(buyItemDTO.getId());
+				//System.out.println(buyItemDTO.getItemName());
+				//System.out.println(buyItemDTO.getItemPrice());
 			}
 
 		} catch(Exception e) {
