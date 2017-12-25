@@ -4,7 +4,9 @@ import java.util.Map;
 
 import org.apache.struts2.interceptor.SessionAware;
 
+import com.internousdev.ecsite.dao.BuyItemDAO;
 import com.internousdev.ecsite.dao.LoginDAO;
+import com.internousdev.ecsite.dto.BuyItemDTO;
 import com.internousdev.ecsite.dto.LoginDTO;
 import com.opensymphony.xwork2.ActionSupport;
 
@@ -30,8 +32,7 @@ public class LoginAction extends ActionSupport implements SessionAware{
 
 	private LoginDAO loginDAO = new LoginDAO();
 	private LoginDTO loginDTO = new LoginDTO();
-
-//	private ByuItemDAO buyItemDAO = new BuyItemDAO();
+	private BuyItemDAO buyItemDAO = new BuyItemDAO();
 
 	public String execute(){
 		String result = ERROR;
@@ -45,11 +46,19 @@ public class LoginAction extends ActionSupport implements SessionAware{
 			result = SUCCESS;
 
 			//アイテム情報取得
-			//BuyItemDTO buyItemDTO = buyItemDAO.getBuyItemInfo();
-			//session.put("login_user_id", loginDTO.getLoginId());
-			//session.put("id", buyItemDTO.getLoginId());
-			//session.put("buyItem_name", buyItemDTO.getItemName());
-			//session.put("buyItem_price", buyItemDTO.getItemPrice());
+			BuyItemDTO buyItemDTO = buyItemDAO.getBuyItemInfo();
+
+			session.put("login_id",loginDTO.getLoginId());
+			session.put("id",buyItemDTO.getId());
+			session.put("item_name",buyItemDTO.getItemName());
+			session.put("item_price",buyItemDTO.getItemPrice());
+			session.put("item_stock",buyItemDTO.getItemStock());
+
+			System.out.println("session.login_id: " + (session.get("login_id")));
+			System.out.println("session.id: " + (session.get("id")));
+			System.out.println("session.item_name: " + (session.get("item_name")));
+			System.out.println("session.item_price: " + (session.get("item_price")));
+			System.out.println("session.item_stock: " + (session.get("item_stock")));
 
 			return result;
 		}

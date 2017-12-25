@@ -1,0 +1,28 @@
+package com.internousdev.ecsite.dto;
+
+public class BuyItemDTO {
+	private int id;//				\\\buyItemDTO.getLoginid()
+	private String buyItem_name;//	\\\buyItemDTO.getItemName()
+	private int buyItem_price;//	\\\buyItemDTO.getItemPrice()
+
+	public int getId(){
+		return id;
+	}
+	public void setId(int id){
+		this.id = id;
+	}
+
+	public String getItemName(){
+		return buyItem_name;
+	}
+	public void setItemName(String buyItem_name){
+		this.buyItem_name = buyItem_name;
+	}
+
+	public int getItemPrice(){
+		return buyItem_price;
+	}
+	public void setItemPrice(int buyItem_price){
+		this.buyItem_price = buyItem_price;
+	}
+}
