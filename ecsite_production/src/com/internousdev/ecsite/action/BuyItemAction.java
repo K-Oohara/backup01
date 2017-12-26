@@ -29,7 +29,7 @@ public class BuyItemAction extends ActionSupport implements SessionAware{
 		}
 
 
-		System.out.println("session.count: " + count);
+		System.out.println("session.count: " + session.get("count"));
 		System.out.println("session.total_price: " + (session.get("total_price")));
 		System.out.println("session.pay: (" + pay + ", " + session.get("pay") + ")");
 

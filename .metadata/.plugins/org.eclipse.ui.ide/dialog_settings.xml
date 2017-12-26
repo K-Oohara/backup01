@@ -12,6 +12,7 @@
 		<item value="false" key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID"/>
 		<item value="false" key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED"/>
 		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="C:\Users\internousdev\Desktop\workspace\workspace-oohara\backup01\solare-master"/>
 			<item value="C:\Users\internousdev\Desktop\workspace\workspace-oohara\backup01"/>
 			<item value="C:\Users\internousdev\Desktop\workspace\workspace-oohara\backup01\Android"/>
 			<item value="C:\Users\internousdev\Desktop\workspace\workspace-oohara\backup01\ecsite_production"/>
