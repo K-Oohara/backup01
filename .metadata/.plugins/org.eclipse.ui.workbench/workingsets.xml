@@ -4,6 +4,7 @@
 <item elementID="=ecsite_production" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=ecsite" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=template12" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=solare-master" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=ecsite02" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=template" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=login02" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
